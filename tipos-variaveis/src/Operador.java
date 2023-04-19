@@ -45,7 +45,32 @@ public class Operador {
         mentira = !mentira;
         System.out.println(mentira);
 
-        //Operador Ternário
+        //Operador Ternário : ?(verdadeiro) ou :(se não)
+         int a, b;
+         
+         a = 5;
+         b = 6;
+
+         String resultado2 = a==b ?"verdadeiro" : "falso";
+        /* if(a==b){
+            String resultado2 = "verdadeiro";
+            System.out.println(resultado2);
+         } else {
+            String resultado2 = "falso";
+            System.out.println(resultado2);
+         }*/
+         
+         // Operadores relacionais : ==(igual), !=(diferença), >(maior),>=(maior ou igual), <(menor), <=(menor ou igual)
+
+         int numero1= 1;
+         int numero2= 2;
+          
+         boolean simNao= numero1 == numero2;
+         System.out.println("Numero1 é igual a numero2? " + simNao);
+
         
+
+
+
     }
 }
