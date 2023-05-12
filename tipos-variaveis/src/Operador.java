@@ -59,7 +59,7 @@ public class Operador {
             String resultado2 = "falso";
             System.out.println(resultado2);
          }*/
-         
+
          // Operadores relacionais : ==(igual), !=(diferença), >(maior),>=(maior ou igual), <(menor), <=(menor ou igual)
 
          int numero1= 1;
@@ -68,8 +68,19 @@ public class Operador {
          boolean simNao= numero1 == numero2;
          System.out.println("Numero1 é igual a numero2? " + simNao);
 
-        
+         // Operadores logicos: && (E) e || (ou)
 
+         boolean condicao1= true;
+         boolean condicao2 = false;
+
+         // Aqui estamos ultilizando o operador E
+          if(condicao1 && condicao2){
+            System.out.println("as duas condições são verdadeiras");
+          }
+
+          if(condicao1 || condicao2){
+            System.out.println("uma das condições são verdadeira");
+          }
 
 
     }
